@@ -75,7 +75,7 @@
   height: 568px;
   width: 568px;
 }
-.content {
+.description {
   background-color: #f2f2f2;
   position: relative;
   margin: 0 auto;
@@ -86,7 +86,6 @@
   display: flex;
   margin: 0 auto;
   width: 80%;
-  background-color: #f2f2f2;
   justify-content: space-between;
 }
 .two-columns_brief {
@@ -114,4 +113,56 @@
 }
 .paragraph-2 {
   margin-bottom: 30px;
+}
+.digits {
+  background-color: #f2f2f2;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 100px;
+  top:200px;
+}
+.section-title {
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  display: flex;
+  justify-content:center;
+  margin: 0 auto;
+  width: 60%;
+}
+.section-subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  display: flex;
+  justify-content:center;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 60%;
+}
+.table {
+  background-color: #f2f2f2;
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cell {
+  width: 250px;
+  margin-top: 60px;
+}
+.heading {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  margin-top: 20px;
 }
