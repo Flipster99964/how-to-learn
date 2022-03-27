@@ -31,10 +31,10 @@
 }
 .logo {
   width: 183px;
-  height: 32px;
   z-index: 3;
 }
 .logo_place_header{
+  height: 32px;
   position: absolute;
   margin-top: 30px;
   margin-left: 64px;
@@ -271,6 +271,7 @@ margin-bottom: 0;
   justify-content: space-between;
 }
 .logo_place_footer{
+  height: 35px;
   display: flex;
 }
 .footer__author {
