@@ -2,7 +2,7 @@
     background-color: white;
     position: relative;
     margin: 0 auto;
-    margin-top: 100px; 
+    margin-top: 100px;
     margin-bottom: -60px;
 }
 .video__iframes {
@@ -15,6 +15,7 @@
   height: 316px;
   margin-right: 20px;
   z-index: 1;
+  border: 0;
 }
 .video__iframe:last-child {
   margin-right: 0;
