@@ -1,0 +1,21 @@
+.video {
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px; 
+    margin-bottom: -60px;
+}
+.video__iframes {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+}
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
+  z-index: 1;
+}
+.video__iframe:last-child {
+  margin-right: 0;
+}
